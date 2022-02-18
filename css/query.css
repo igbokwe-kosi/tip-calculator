@@ -1,0 +1,45 @@
+@media (max-width: 59.375em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 43.75em) {
+  html {
+    font-size: 50%;
+  }
+  .container {
+    padding: 2.4rem;
+  }
+}
+
+@media (max-width: 31.25em) {
+  .form__input-tip {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .section-result {
+    padding: 2.4rem;
+  }
+  .container {
+    gap: 1.6rem;
+  }
+}
+
+@media (max-width: 25em) {
+  .container {
+    flex-direction: column;
+  }
+  .form {
+    width: 100%;
+  }
+  .input-box {
+    width: 100%;
+    flex: 1;
+  }
+  .form--input {
+    width: 100%;
+  }
+  .section-result {
+    gap: 4.8rem;
+  }
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator --By Kosiso</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/query.css" />
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <section class="section-form">
+        <form class="form">
+          <div class="form__bill">
+            <label class="input-label" for="bill">Bill</label>
+            <div class="input-box">
+              <!-- <span>$</span> -->
+              <input class="form--input" type="number" id="bill" name="bill" />
+            </div>
+            <!-- <span class="error-message"
+              >value must be a <strong>number</strong> greater than 0</span
+            > -->
+          </div>
+          <div class="form__tip">
+            <label class="input-label">Select tip %</label>
+            <div class="form__input-tip">
+              <button class="form__tip-button form__tip--value" value="10">
+                10%
+              </button>
+              <button class="form__tip-button form__tip--value" value="20">
+                20%
+              </button>
+              <button class="form__tip-button form__tip--value" value="30">
+                30%
+              </button>
+              <button class="form__tip-button form__tip--value" value="40">
+                40%
+              </button>
+              <button class="form__tip-button form__tip--value" value="50">
+                50%
+              </button>
+              <div class="input-box">
+                <input
+                  class="form--input form__tip--value"
+                  placeholder="custom"
+                  type="number"
+                />
+              </div>
+            </div>
+            <!-- <span class="error-message"
+              >value must be a <strong>number</strong> greater than 0</span
+            > -->
+          </div>
+
+          <div class="form__people">
+            <label class="input-label" for="people">Number of People</label>
+            <div class="input-box">
+              <input
+                class="form--input input-box--people"
+                type="number"
+                id="people"
+                name="people"
+              />
+            </div>
+            <!-- <span class="error-message"
+              >value must be a <strong>number</strong> greater than 0</span
+            > -->
+          </div>
+          <button class="btn btn-form">Find Tip!</button>
+        </form>
+      </section>
+      <section class="section-result">
+        <div class="result">
+          <div class="result-tip">
+            <div class="result-tip__box">
+              <h3 class="result__header">tip amount</h3>
+              <span>/ person</span>
+            </div>
+            <div class="result-tip__value">
+              $<span class="tip-value">0.00</span>
+            </div>
+          </div>
+          <div class="result-total">
+            <div class="result-total__box">
+              <h3 class="result__header">total</h3>
+              <span>/ person</span>
+            </div>
+            <div class="result-total__value">
+              $<span class="total-value">0.00</span>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-reset">reset</button>
+      </section>
+    </div>
+  </body>
+</html>
