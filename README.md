@@ -43,7 +43,7 @@ Would like to change the css to scss and use make class names. Also remove the b
 
 ### Useful resources
 
-- [Example resource 1](https://maketintsandshades.com/) - This helped me get a color palette. I recommend it ;)
+- [Make Tint and Shades](https://maketintsandshades.com/) - This helped me get a color palette. I recommend it ;)
 
 ## Author
 
