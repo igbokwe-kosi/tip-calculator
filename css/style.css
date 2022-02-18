@@ -41,6 +41,7 @@ body {
   width: 90rem;
   display: flex;
   margin: 1.2rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
   /* height: 80vh; */
   gap: 2.4rem;
   background-color: var(--primary-white);
@@ -63,6 +64,7 @@ body {
   font-family: inherit;
   padding: 1.2rem 0;
   font-weight: 700;
+  cursor: pointer;
   letter-spacing: 1px;
   color: var(--primary-dark-20);
   background-color: var(--primary-light-20);

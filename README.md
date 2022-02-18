@@ -39,7 +39,7 @@ This was my first web page working with JavaScript without a tutorial video, so 
 
 ### Continued development
 
-Would like to change the css to scss and use make class names. Also remove the bug that selects the 10% button when I press enter
+Would like to change the css to scss and use make class names.
 
 ### Useful resources
 
